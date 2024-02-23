@@ -1,0 +1,642 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    /* background-color: aquamarine; */
+}
+.nav_container{
+    justify-content: space-around;
+}
+nav div img{
+    margin-right:5px;
+    margin-top:20px;
+    height:40px;
+    width:120px;
+}
+.nav_container input{
+    border:none;
+}
+
+w{
+    color: blue;
+}
+nav div span{
+    display:flex;
+}
+nav div span img{
+    margin-top:30px;
+    height:20px;
+    width:20px;
+
+}
+nav div span input{
+    margin-top:20px;
+    height:30px;
+    width:300px;
+}
+.nav_container .acnt{
+    margin-top:20px;
+    font-size:20px;
+}
+/* home */
+#home{
+
+
+    height:100vh;
+    width:100%;
+    background-image: url('bg\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display:flex;
+}
+#home div{
+    color:white;
+    padding:21em 0 0 8em;
+}
+
+/* info */
+#info{
+    margin:10px 6em;
+    display: flex;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+#info .nav1{
+   margin: 4% 0 0 0;
+}
+.nav1 a{
+    margin:0;
+    text-decoration: none;
+    margin:0 15px;
+    color:rgb(123, 123, 123);
+}
+.nav1 a:hover{
+    transition: 0.2s ease-in-out ;
+    color:black;
+}
+.nav1 span a{
+    color:black;
+}
+
+/* nav2 */
+
+#info .nav2{
+    width:30%;
+    display: flex;
+    justify-content: right;
+    margin: 4% 0 0 33%;
+    padding:5px;
+}
+.dropdown button{
+    background-color: rgb(211, 215, 215);
+    color: black;
+    border: none;
+}
+.nav2 .group button{
+    border-radius:5px;
+    margin-left: 10px;
+    color:white;
+    background-color: rgb(57, 57, 255);
+    border: none;
+    padding:6px;
+}
+.nav2 .group button:hover{
+    background-color: rgb(1, 1, 201);
+}
+.nav2 .group button img{
+    margin-right:5px;
+}
+
+/* container */
+ #container{
+    margin:10px 6em;
+ }
+#body{
+    padding:10px;
+    margin: 20px 0;
+    box-shadow: 0 0 8px 0px rgb(178, 179, 178);
+ }
+#body .for_display{
+    display: flex;
+}
+#body .box>img{
+    height:200px;
+    width:100%;
+}
+#body .box p img{
+    height:20px;
+    width:20px;
+}
+
+.dots{
+    height:20px;
+    width:20px;
+    margin-left:3rem;
+}
+
+.profile_view #img{
+   height:30px;
+   width:30px;
+   border-radius: 50%;
+   margin-right:8px;
+}
+.profile_view #img2{
+    height:20px;
+    width:20px;
+}
+
+.profile_view div{
+    display: flex;
+}
+.profile_view{
+    margin:10px;
+    display: flex;
+}
+
+.profile_view p{
+    width:100px;
+    margin-left:400px;
+}
+#views{
+
+    margin-left: -50%;
+}
+#views #img2{
+    margin:5px 0 5px 10px;
+    padding:3px;
+    background-color: rgb(178, 178, 178);
+}
+.box button{
+    border-radius: 5px;
+    border:1px solid rgb(158, 158, 158);
+    color: rgb(210, 109, 27);
+    font-weight: 600;
+    width:100%;
+    background-color: transparent;
+}
+
+
+/* aside */
+#container{
+    display:inline-block;
+}
+#container>div{
+    display: inline-block;
+}
+#main{
+    display: inline-block;
+    width:70%;
+}
+#aside{
+    vertical-align: top;
+}
+
+#aside{
+    display:inline-block;
+    width:20%;
+    margin-left:80px;
+}
+#aside input{
+    display: inline;
+    border:none;
+    padding:5px;
+}
+#aside img{
+    height:20px;
+    width:20px;
+    display: inline;
+}
+
+#aside button img{
+    display:inline;
+    margin-top:-59px;
+    margin-left: 220px;
+}
+#aside button{
+    background-color: transparent;
+    border:none;
+}
+
+@media screen and (max-width:900px){
+    nav div img{
+        margin-right:5px;
+        margin-top:20px;
+        height:20px;
+        width:60px;
+    }
+    .nav_container input{
+        border:none;
+    }
+    
+    w{
+        color: blue;
+    }
+    nav div span{
+        display:flex;
+    }
+    nav div span img{
+        margin-top:20px;
+        height:15px;
+        width:15px;
+    
+    }
+    nav div span input{
+        font-size: 10px;
+        margin-top:20px;
+        height:20px;
+        width:150px;
+    }
+    .nav_container .acnt{
+        margin-top:20px;
+        font-size:10px;
+    }
+   /* home */
+   #home{
+    width:100%;
+   }
+#home div{
+    color:white;
+    padding:15em 0 0 8em;
+}
+/* info */
+#info{
+    margin:10px 6em;
+    display: flex;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+/* info */
+#info {
+   margin: 2% 0 0 0;
+}
+.nav1 a{
+    font-size: 10px;
+    text-decoration: none;
+    margin:0 2px;
+    color:rgb(123, 123, 123);
+}
+.nav1 a:hover{
+    transition: 0.2s ease-in-out ;
+    color:black;
+}
+.nav1 span a{
+    color:black;
+}
+
+/* nav2 */
+
+#info .nav2{
+    width:15%;
+    display: flex;
+    justify-content: right;
+    margin: 2% 0 0 33%;
+    /* padding:5px; */
+    font-size: 10px;
+}
+.dropdown button{
+    background-color: rgb(211, 215, 215);
+    color: black;
+    border: none;
+    font-size: 10px;
+}
+.nav2 .group button{
+    width:90px;
+    border-radius:5px;
+    margin-left: 10px;
+    margin-right:-50px;
+    color:white;
+    background-color: rgb(57, 57, 255);
+    border: none;
+}
+.nav2 .group button:hover{
+    background-color: rgb(1, 1, 201);
+}
+.nav2 .group button img{
+    height:10px;
+    width:10px;
+    margin-right:5px;
+}
+/* container */
+#container{
+    /* margin:10px 6em; */
+ }
+#body{
+    /* padding:10px; */
+    margin: 0px 0;
+    box-shadow: 0 0 8px 0px rgb(178, 179, 178);
+ }
+#body .for_display{
+    display: flex;
+}
+#body .box>img{
+    height:200px;
+    width:100%;
+}
+#body .box p img{
+    height:20px;
+    width:20px;
+}
+
+.dots{
+    height:20px;
+    width:20px;
+    margin-left:3rem;
+}
+
+.profile_view #img{
+   height:30px;
+   width:30px;
+   border-radius: 50%;
+   margin-right:8px;
+}
+.profile_view #img2{
+    height:20px;
+    width:20px;
+}
+
+.profile_view div{
+    display: flex;
+}
+.profile_view{
+    margin:10px;
+    display: flex;
+}
+
+.profile_view p{
+    width:100px;
+    margin-left:400px;
+}
+#views{
+
+    margin-left: -50%;
+}
+#img2{
+    display: none;
+}
+.box button{
+    border-radius: 5px;
+    border:1px solid rgb(158, 158, 158);
+    color: rgb(210, 109, 27);
+    font-weight: 600;
+    width:100%;
+    background-color: transparent;
+}
+
+
+/* aside */
+#container{
+    display:inline-block;
+    margin:10px 0 20px 0;
+}
+#container>div{
+    display: inline-block;
+}
+#main{
+    display: inline-block;
+    width:400px;
+    font-size: 10px;
+}
+#aside{
+    vertical-align: top;
+}
+
+#aside{
+    display:inline-block;
+    width:5%;
+    margin-left:10px;
+    font-size: 10px;
+}
+#aside input{
+    display: inline;
+    border:none;
+    padding:5px;
+}
+#aside img{
+    height:10px;
+    width:10px;
+    display: inline;
+}
+
+#aside button img{
+    display:inline;
+    margin-top:-59px;
+    margin-left: 110px;
+}
+#aside button{
+    background-color: transparent;
+    border:none;
+}
+}
+@media screen and (max-width:600px){
+    nav div img{
+        margin-right:5px;
+        margin-top:20px;
+        height:20px;
+        width:60px;
+    }
+    .nav_container input{
+        border:none;
+    }
+    
+    w{
+        color: blue;
+    }
+    nav div span{
+        display:flex;
+    }
+    nav div span img{
+        margin-top:20px;
+        height:15px;
+        width:15px;
+    
+    }
+    nav div span input{
+        font-size: 10px;
+        margin-top:20px;
+        height:20px;
+        width:150px;
+    }
+    .nav_container .acnt{
+        margin-top:20px;
+        font-size:10px;
+    }
+   /* home */
+   #home{
+    width:100%;
+   }
+#home div{
+    color:white;
+    padding:15em 0 0 8em;
+}
+/* info */
+#info{
+    margin:10px 6em;
+    display: flex;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+/* info */
+#info {
+   margin: 2% 0 0 0;
+}
+.nav1 a{
+    font-size: 10px;
+    text-decoration: none;
+    margin:0 2px;
+    color:rgb(123, 123, 123);
+}
+.nav1 a:hover{
+    transition: 0.2s ease-in-out ;
+    color:black;
+}
+.nav1 span a{
+    color:black;
+}
+
+/* nav2 */
+
+#info .nav2{
+    width:15%;
+    display: flex;
+    justify-content: right;
+    margin: 2% 0 0 33%;
+    /* padding:5px; */
+    font-size: 10px;
+}
+.dropdown button{
+    background-color: rgb(211, 215, 215);
+    color: black;
+    border: none;
+    font-size: 10px;
+}
+.nav2 .group button{
+    width:90px;
+    border-radius:5px;
+    margin-left: 10px;
+    margin-right:-50px;
+    color:white;
+    background-color: rgb(57, 57, 255);
+    border: none;
+}
+.nav2 .group button:hover{
+    background-color: rgb(1, 1, 201);
+}
+.nav2 .group button img{
+    height:10px;
+    width:10px;
+    margin-right:5px;
+}
+/* container */
+#container{
+    /* margin:10px 6em; */
+ }
+#body{
+    /* padding:10px; */
+    margin: 0px 0;
+    box-shadow: 0 0 8px 0px rgb(178, 179, 178);
+ }
+#body .for_display{
+    display: flex;
+}
+#body .box>img{
+    height:200px;
+    width:100%;
+}
+#body .box p img{
+    height:20px;
+    width:20px;
+}
+
+.dots{
+    height:20px;
+    width:20px;
+    margin-left:3rem;
+}
+
+.profile_view #img{
+   height:30px;
+   width:30px;
+   border-radius: 50%;
+   margin-right:8px;
+}
+.profile_view #img2{
+    height:20px;
+    width:20px;
+}
+
+.profile_view div{
+    display: flex;
+}
+.profile_view{
+    margin:10px;
+    display: flex;
+}
+
+.profile_view p{
+    width:100px;
+    margin-left:400px;
+}
+#views{
+
+    margin-left: -50%;
+}
+#img2{
+    display: none;
+}
+.box button{
+    border-radius: 5px;
+    border:1px solid rgb(158, 158, 158);
+    color: rgb(210, 109, 27);
+    font-weight: 600;
+    width:100%;
+    background-color: transparent;
+}
+
+
+/* aside */
+#container{
+    display:inline-block;
+    margin:10px 0 20px 0;
+}
+#container>div{
+    display: inline-block;
+}
+#main{
+    display: inline-block;
+    width:400px;
+    font-size: 10px;
+}
+#aside{
+    vertical-align: top;
+}
+
+#aside{
+    display:inline-block;
+    width:5%;
+    margin-left:10px;
+    font-size: 10px;
+}
+#aside input{
+    display: inline;
+    border:none;
+    padding:5px;
+}
+#aside img{
+    height:10px;
+    width:10px;
+    display: inline;
+}
+
+#aside button img{
+    display:inline;
+    margin-top:-59px;
+    margin-left: 110px;
+}
+#aside button{
+    background-color: transparent;
+    border:none;
+}
+
+}

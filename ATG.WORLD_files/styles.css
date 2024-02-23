@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    /* background-color: aquamarine; */
+}
+.nav_container{
+    justify-content: space-around;
+}
+nav div img{
+    margin-right:5px;
+    margin-top:20px;
+    height:40px;
+    width:120px;
+}
+w{
+    color: blue;
+}
+nav div span{
+    display:flex;
+}
+nav div span img{
+    margin-top:30px;
+    height:20px;
+    width:20px;
+
+}
+nav div span input{
+    margin-top:20px;
+    height:30px;
+    width:300px;
+}
+.nav_container .acnt{
+    margin-top:20px;
+    font-size:20px;
+}
+/* home */
+#home{
+
+
+    height:100vh;
+    width:100%;
+    background-image: url('bg\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display:flex;
+}
+#home div{
+    color:white;
+    padding:21em 0 0 8em;
+}
+
+/* info */
+#info{
+    margin:10px 6em;
+    display: flex;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+#info .nav1{
+   margin: 4% 0 0 0;
+}
+.nav1 a{
+    margin:0;
+    text-decoration: none;
+    margin:0 15px;
+    color:rgb(123, 123, 123);
+}
+.nav1 a:hover{
+    transition: 0.2s ease-in-out ;
+    color:black;
+}
+.nav1 span a{
+    color:black;
+}
+
+/* nav2 */
+
+#info .nav2{
+    display: flex;
+    margin: 4% 0 0 0;
+}
+.dropdown button{
+    background-color: rgb(211, 215, 215);
+    color: black;
+    border: none;
+}
+.nav2 .group button{
+    border-radius:5px;
+    margin-left: 10px;
+    color:white;
+    background-color: rgb(57, 57, 255);
+    border: none;
+}
+.nav2 .group button img{
+    margin-right:5px;
+}
+
+/* container */
+ #container{
+    margin:10px 6em;
+ }
+#body{
+    padding:10px;
+    width:55%;
+    margin: 20px 0;
+    box-shadow: 0 0 8px 0px rgb(178, 179, 178);
+ }
+#body .for_display{
+    display: flex;
+}
+#body .box>img{
+    height:200px;
+    width:100%;
+}
+#body .box p img{
+    height:20px;
+    width:20px;
+}
+
+.dots{
+    height:20px;
+    width:20px;
+    margin-left:30em;
+}
+
+.profile_view #img{
+   height:30px;
+   width:30px;
+   border-radius: 50%;
+   margin-right:8px;
+}
+.profile_view #img2{
+    height:20px;
+    width:20px;
+}
+
+.profile_view div{
+    display: flex;
+}
+.profile_view{
+    display: flex;
+}
+
+.profile_view p{
+    margin-left:400px;
+}
+#views{
+    margin-left: -50%;
+}
+#views #img2{
+    margin:5px 0 5px 10px;
+    padding:3px;
+    background-color: rgb(178, 178, 178);
+}
+.box button{
+    border-radius: 5px;
+    border:1px solid rgb(158, 158, 158);
+    color: rgb(210, 109, 27);
+    font-weight: 600;
+    width:100%;
+    background-color: transparent;
+}
